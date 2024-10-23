@@ -1,4 +1,7 @@
-
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
 
 @media screen and (min-width : 768px){
 
@@ -8,8 +11,8 @@
     }
 
     .grid-container {
-        max-width: 1200px;
-
+        margin: auto;
+        max-width: 90%;
         display: grid;
         grid-auto-rows: minmax(300px , auto);
         grid-template-columns: repeat(4, 1fr);
